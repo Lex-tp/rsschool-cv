@@ -29,3 +29,13 @@
 -------------
 ##### Experience gained exclusively in their projects.
 ##### No team development experience.
+
+## Education
+-------------
+- **Gomel State Agrarian and Economic College** (*Technician programmer*);
+- **Gomel State University named after Francis Skorina** (*Software engineer*) - *still studying*;
+- [**Html Academy**](https://htmlacademy.ru);
+- [**Современный учебник JavaScript**](https://learn.javascript.ru).
+## English
+------------
+##### A2-B1.
