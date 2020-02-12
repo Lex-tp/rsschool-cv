@@ -75,7 +75,7 @@
 .container {
     width: 1024px;
     margin: 0 auto;
-    background-color: #3f51b5;
+    background-color: #303f9f;
 }
 
 *, *:after, *:before {
@@ -105,7 +105,7 @@
 
 .span__text {
     font-size: 1.5rem;
-    margin: 15px;
+    margin: 20px;
 }   
 
 .span__bold {
@@ -118,4 +118,39 @@ img {
     position:absolute;
     margin: 20px;
     border: 5px solid #ffffff;
+}
+
+.main__container {
+    background-color: #3f51b5;
+    height: 100%;
+}
+
+.main__caption {
+    font-size: 2.5rem;
+    border-bottom: 2px solid #ffd740;
+    font-weight: 700;
+    margin: 20px 30px 5px 30px;
+}
+
+a {
+    color: #ffd740;
+    transition: color .1s linear;
+}
+
+a:hover {
+    color: #918151;
+    transition: underline;
+}
+
+ul {
+    margin: 0px 0px 0px 30px;
+}
+
+.code__container {
+    background-color: #FAF0E6;
+    width: 500px;
+    height: 120px;
+    color: grey;
+    margin: 20px 0px 0px 30px;
+    border-radius: 10px;
 }
