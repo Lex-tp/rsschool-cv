@@ -154,3 +154,9 @@ ul {
     margin: 20px 0px 0px 30px;
     border-radius: 10px;
 }
+
+.footer__container {
+    display: flex;
+    background-color: #303f9f;
+    flex-direction: row;
+}
