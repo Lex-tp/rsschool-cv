@@ -1,0 +1,121 @@
+ /* --------------- reset.css --------------- */
+ html, body, div, span, h1, h2, h3, h4, h5, h6, p, em, img, strong, sub, sup, b, u, i,  dl, dt, dd, ol, ul, li, fieldset, form, label, table, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;                              
+	vertical-align: baseline;          
+	background: transparent;      
+	font-size: 100%;                     
+    }
+
+    a {                                      	     
+	  margin:0;
+	  padding:0;
+	  font-size:100%;
+	  vertical-align: baseline;
+	  background: transparent;
+	  outline: none;
+    }
+
+    table {						
+	  border-collapse: collapse; 
+	  border-spacing: 0;
+    }
+
+    td, td img {
+	  vertical-align: top;			
+    } 
+
+    input, select, button, textarea {
+	  margin: 0; 				
+	  font-size: 100%; 			
+	  outline: none;
+    }
+
+    input[type="text"], input[type="password"], textarea {
+	  padding: 0; 				
+    }
+
+    input[type="checkbox"] { 		
+	  vertical-align: bottom;
+    }
+
+    input[type="radio"] {
+	  vertical-align: text-bottom;
+    }
+
+    sub {
+	  vertical-align: sub;
+	  font-size: smaller;
+    }
+
+    sup {
+	  vertical-align: super;
+	  font-size: smaller;
+    }
+
+    article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+    }
+
+    nav ul {
+	 list-style: none;
+    }
+  /* --------------- /reset.css --------------- */  
+
+ html {
+     font-size: 16px;
+ } 
+
+ body {
+    color: #ffffff;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+    background-color: #3f51b5;
+}
+
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+
+.flex__container__row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex__container__column {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__container {
+    width: 505px;
+    height: 400px;
+}
+
+.header__caption {
+    font-size: 2rem;
+    border-bottom: 2px solid #ffd740;
+    font-weight: 700;
+}
+
+.span__text {
+    font-size: 1.5rem;
+    margin: 15px;
+}   
+
+.span__bold {
+    font-weight: bold;
+    color: #ffd740;
+}
+
+img {
+    width: 400px;
+    position:absolute;
+    margin: 20px;
+    border: 5px solid #ffffff;
+}
